@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.superpowers/
+.roc/
+*.vsix
+node_modules/
+.DS_Store
+dist/
+docs/superpowers/

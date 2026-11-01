@@ -1,0 +1,103 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"/ABSOLUTE/PATH/roc-practice/scripts/claude_trace.py\" --output \"/ABSOLUTE/PATH/target-project/.roc/trace.jsonl\" --project-root \"/ABSOLUTE/PATH/target-project\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"/ABSOLUTE/PATH/roc-practice/scripts/claude_trace.py\" --output \"/ABSOLUTE/PATH/target-project/.roc/trace.jsonl\" --project-root \"/ABSOLUTE/PATH/target-project\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "InstructionsLoaded": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"/ABSOLUTE/PATH/roc-practice/scripts/claude_trace.py\" --output \"/ABSOLUTE/PATH/target-project/.roc/trace.jsonl\" --project-root \"/ABSOLUTE/PATH/target-project\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"/ABSOLUTE/PATH/roc-practice/scripts/claude_trace.py\" --output \"/ABSOLUTE/PATH/target-project/.roc/trace.jsonl\" --project-root \"/ABSOLUTE/PATH/target-project\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"/ABSOLUTE/PATH/roc-practice/scripts/claude_trace.py\" --output \"/ABSOLUTE/PATH/target-project/.roc/trace.jsonl\" --project-root \"/ABSOLUTE/PATH/target-project\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"/ABSOLUTE/PATH/roc-practice/scripts/claude_trace.py\" --output \"/ABSOLUTE/PATH/target-project/.roc/trace.jsonl\" --project-root \"/ABSOLUTE/PATH/target-project\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"/ABSOLUTE/PATH/roc-practice/scripts/claude_trace.py\" --output \"/ABSOLUTE/PATH/target-project/.roc/trace.jsonl\" --project-root \"/ABSOLUTE/PATH/target-project\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"/ABSOLUTE/PATH/roc-practice/scripts/claude_trace.py\" --output \"/ABSOLUTE/PATH/target-project/.roc/trace.jsonl\" --project-root \"/ABSOLUTE/PATH/target-project\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"/ABSOLUTE/PATH/roc-practice/scripts/claude_trace.py\" --output \"/ABSOLUTE/PATH/target-project/.roc/trace.jsonl\" --project-root \"/ABSOLUTE/PATH/target-project\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

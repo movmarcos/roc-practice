@@ -1,0 +1,85 @@
+{
+  "format_version": 1,
+  "targets": [
+    "codex",
+    "copilot"
+  ],
+  "copilot_skill_source": "agents",
+  "capabilities": {
+    "assess-project": {
+      "source": "capabilities/assess-project/SKILL.md",
+      "bindings": {
+        "claude": {
+          "status": "shared",
+          "implementation": "assess-project",
+          "verification": "format reviewed; live verification pending"
+        },
+        "copilot": {
+          "status": "shared",
+          "implementation": "assess-project",
+          "verification": "format reviewed; live verification pending"
+        },
+        "codex": {
+          "status": "shared",
+          "implementation": "assess-project",
+          "verification": "format reviewed; live verification pending"
+        }
+      }
+    },
+    "review-evidence": {
+      "source": "capabilities/review-evidence/SKILL.md",
+      "bindings": {
+        "claude": {
+          "status": "shared",
+          "implementation": "review-evidence",
+          "verification": "format reviewed; live verification pending"
+        },
+        "copilot": {
+          "status": "shared",
+          "implementation": "review-evidence",
+          "verification": "format reviewed; live verification pending"
+        },
+        "codex": {
+          "status": "shared",
+          "implementation": "review-evidence",
+          "verification": "format reviewed; live verification pending"
+        }
+      }
+    },
+    "resume-project": {
+      "source": "capabilities/resume-project/SKILL.md",
+      "bindings": {
+        "claude": {
+          "status": "shared",
+          "implementation": "resume-project",
+          "verification": "format reviewed; live verification pending"
+        },
+        "copilot": {
+          "status": "shared",
+          "implementation": "resume-project",
+          "verification": "format reviewed; live verification pending"
+        },
+        "codex": {
+          "status": "shared",
+          "implementation": "resume-project",
+          "verification": "format reviewed; live verification pending"
+        }
+      }
+    }
+  },
+  "external_example": {
+    "capability": "specialist-domain-analysis",
+    "bindings": {
+      "claude": {
+        "status": "unavailable"
+      },
+      "copilot": {
+        "status": "unavailable"
+      },
+      "codex": {
+        "status": "unavailable"
+      }
+    },
+    "note": "Illustrative gap, not an installed skill."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "run_id": "",
+  "condition": null,
+  "tool": "",
+  "surface": "",
+  "version": "",
+  "model": "",
+  "start_revision": "",
+  "run_order": null,
+  "workspace_mode": "native|proxy|absent|unsupported",
+  "global_context": [],
+  "contamination": [],
+  "time_budget_minutes": null,
+  "instruction_bytes": null,
+  "interventions": [],
+  "usage": null,
+  "usage_unavailable_reason": "",
+  "evidence": [],
+  "criteria": {
+    "1": {
+      "status": "not_assessed",
+      "evidence": null
+    },
+    "2": {
+      "status": "not_assessed",
+      "evidence": null
+    },
+    "3": {
+      "status": "not_assessed",
+      "evidence": null
+    },
+    "4": {
+      "status": "not_assessed",
+      "evidence": null
+    },
+    "5": {
+      "status": "not_assessed",
+      "evidence": null
+    },
+    "6": {
+      "status": "not_assessed",
+      "evidence": null
+    },
+    "7": {
+      "status": "not_assessed",
+      "evidence": null
+    },
+    "8": {
+      "status": "not_assessed",
+      "evidence": null
+    },
+    "9": {
+      "status": "not_assessed",
+      "evidence": null
+    },
+    "10": {
+      "status": "not_assessed",
+      "evidence": null
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "brand": "Common Ground",
+  "tagline": "Practical workshops. Shared progress.",
+  "description": "A fictional community learning space for curious adults.",
+  "events": [
+    {
+      "id": "1",
+      "title": "Budget with confidence",
+      "category": "Money",
+      "date": "2030-04-04",
+      "duration_minutes": 60,
+      "description": "Plan a simple monthly household budget."
+    },
+    {
+      "id": "2",
+      "title": "Research a decision",
+      "category": "Research",
+      "date": "2030-04-06",
+      "duration_minutes": 90,
+      "description": "Compare evidence before making a choice."
+    },
+    {
+      "id": "3",
+      "title": "Build a personal website",
+      "category": "Technology",
+      "date": "2030-04-09",
+      "duration_minutes": 120,
+      "description": "Create a useful home on the web."
+    },
+    {
+      "id": "4",
+      "title": "Understand investment risk",
+      "category": "Money",
+      "date": "2030-04-12",
+      "duration_minutes": 60,
+      "description": "Explore fictional risk and return scenarios."
+    },
+    {
+      "id": "5",
+      "title": "Write a clear proposal",
+      "category": "Writing",
+      "date": "2030-04-15",
+      "duration_minutes": 90,
+      "description": "Turn an idea into an actionable proposal."
+    },
+    {
+      "id": "6",
+      "title": "Check a claim",
+      "category": "Research",
+      "date": "2030-04-19",
+      "duration_minutes": 60,
+      "description": "Practice verifying sources and assumptions."
+    }
+  ]
+}

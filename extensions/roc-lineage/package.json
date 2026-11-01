@@ -1,0 +1,18 @@
+{
+  "name": "roc-lineage",
+  "displayName": "ROC Lineage",
+  "description": "Inspect recorded AI activity as a local lineage graph and timeline.",
+  "version": "0.1.0",
+  "publisher": "roc-project",
+  "license": "MIT",
+  "engines": {"vscode": "^1.85.0"},
+  "categories": ["Visualization", "Other"],
+  "main": "./src/extension.cjs",
+  "activationEvents": ["onCommand:rocLineage.open", "onCommand:rocLineage.demo"],
+  "contributes": {"commands": [
+    {"command": "rocLineage.open", "title": "ROC: Open Lineage Trace"},
+    {"command": "rocLineage.demo", "title": "ROC: Show Lineage Demo"}
+  ]},
+  "scripts": {"test": "node --test test/*.test.cjs"},
+  "capabilities": {"untrustedWorkspaces": {"supported": "limited", "description": "Trace viewing works; workspace file navigation requires trust."}}
+}
