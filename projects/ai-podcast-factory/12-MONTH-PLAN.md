@@ -3,7 +3,7 @@
 **Suggested cadence:** 5–7 hours per week, flexible; months are checkpoints rather than deadlines.
 
 | Month | Core learning | Minimum build evidence |
-|---|---|---|---|
+|---|---|---|
 | 1 | Context engineering; controlled AI-assisted coding | Context audit, schema-validated technical outline, four fixtures and baseline measurements |
 | 2 | Python tools, typed models, retrieval boundaries | Single read-only tool-using assistant with trace and denied unsafe action |
 | 3 | State machines, approvals, checkpoints, retries | Persist and resume a deterministic workflow; prove idempotency and approval rejection |
