@@ -4,7 +4,7 @@
 
 A public hands-on kit for people already using AI who want more reliable delivery, clearer context and better continuity. Apply the prompts to your own work: finance, investing, research, writing, software or another field. A website exercise makes the effects of structure visible.
 
-This repository is independently usable. The [ROC training curriculum](https://movmarcos.github.io/Roc/) is maintained separately.
+This repository is independently usable. The ROC training curriculum is maintained separately.
 
 ## Start
 

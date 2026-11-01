@@ -4,13 +4,13 @@ Build a human-supervised system that turns verified technical material and teste
 
 **Status:** Starter guide. This kit contains no agent, voice or video code; you build that in your own project.
 
-The plan and design are maintained on the ROC site:
+The plan and design are in this folder:
 
-- [Project brief](https://movmarcos.github.io/Roc/learn.html?file=projects/ai-podcast-factory/README.md)
-- [Architecture and contracts](https://movmarcos.github.io/Roc/learn.html?file=projects/ai-podcast-factory/ARCHITECTURE.md)
-- [Quality gates](https://movmarcos.github.io/Roc/learn.html?file=projects/ai-podcast-factory/QUALITY-GATES.md)
-- [Pilot episode brief](https://movmarcos.github.io/Roc/learn.html?file=projects/ai-podcast-factory/EPISODE-001.md)
-- [12-month plan](https://movmarcos.github.io/Roc/learn.html?file=tracks/applied-agentic-engineering/12-MONTH-PLAN.md)
+- [Project brief](BRIEF.md)
+- [Architecture and contracts](ARCHITECTURE.md)
+- [Quality gates](QUALITY-GATES.md)
+- [Pilot episode brief](EPISODE-001.md)
+- [12-month plan](12-MONTH-PLAN.md)
 
 ## Set up
 
@@ -26,11 +26,11 @@ your-podcast-factory/
   logs/        one dated learning log per experiment
 ```
 
-Then run the [bootstrap prompt](../../START-HERE.md) in that repository, and copy the [learning log template](https://movmarcos.github.io/Roc/learn.html?file=tracks/applied-agentic-engineering/LEARNING-LOG.md) into `logs/`.
+Then run the [bootstrap prompt](../../START-HERE.md) in that repository, and copy the [learning log template](LEARNING-LOG.md) into `logs/`.
 
 ## First 30 days
 
-Follow the [full sprint](https://movmarcos.github.io/Roc/learn.html?file=tracks/applied-agentic-engineering/FIRST-30-DAYS.md). You are done with each week when you have this evidence:
+Follow the [full sprint](FIRST-30-DAYS.md). You are done with each week when you have this evidence:
 
 | Week | Build | Exit evidence |
 |---|---|---|
